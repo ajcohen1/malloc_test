@@ -3,7 +3,7 @@
 #include <stdint.h>
 #include <stdio.h>
 
-#define SBRK_ERR ((void*) -3)
+#define SBRK_ERR ((void*) -1)
 
 typedef struct __attribute__((packed)) mem_header {
     bool free;
